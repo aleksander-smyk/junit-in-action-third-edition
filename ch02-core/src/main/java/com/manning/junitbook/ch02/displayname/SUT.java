@@ -21,16 +21,16 @@
 
 package com.manning.junitbook.ch02.displayname;
 
-class SUT {
-    String hello() {
+public class SUT {
+    public String hello() {
         return "Hello";
     }
 
-    String bye() {
+    public String bye() {
         return "Bye";
     }
 
-    String talk() {
+    public String talk() {
         return "How are you?";
     }
 }
